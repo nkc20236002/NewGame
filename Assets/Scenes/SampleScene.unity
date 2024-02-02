@@ -157,7 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 5
   JumpPower: 300
-  MaxJumpCount: 1
+  MaxJumpCount: 2
 --- !u!212 &375794386
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -285,7 +285,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
