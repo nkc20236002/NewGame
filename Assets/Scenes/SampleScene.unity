@@ -1016,6 +1016,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+<<<<<<< HEAD
 --- !u!1 &1423130100
 GameObject:
   m_ObjectHideFlags: 0
@@ -1181,6 +1182,8 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+=======
+>>>>>>> origin/main
 --- !u!1 &1785796089
 GameObject:
   m_ObjectHideFlags: 0
