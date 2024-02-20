@@ -137,9 +137,9 @@ GameObject:
   - component: {fileID: 468825523}
   - component: {fileID: 468825522}
   - component: {fileID: 468825521}
-  - component: {fileID: 468825520}
-  - component: {fileID: 468825527}
   - component: {fileID: 468825528}
+  - component: {fileID: 468825527}
+  - component: {fileID: 468825520}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Player
@@ -277,7 +277,8 @@ MonoBehaviour:
   maxForce: 20
   minForce: 5
   gravityScale: 1
-  audioSource2: {fileID: 468825528}
+  onPressSound: {fileID: 8300000, guid: ab56bf393e32a4b4bbac1325086fac3d, type: 3}
+  onReleaseSound: {fileID: 8300000, guid: 8fcb3273653652e4e835b7efe7ddfef2, type: 3}
 --- !u!114 &468825522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -429,7 +430,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ab56bf393e32a4b4bbac1325086fac3d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8fcb3273653652e4e835b7efe7ddfef2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -525,7 +526,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8fcb3273653652e4e835b7efe7ddfef2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ab56bf393e32a4b4bbac1325086fac3d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
