@@ -11,6 +11,9 @@ public class ShootBall : MonoBehaviour
     private Vector2 StartPosition; // ドラッグの開始位置
     private Vector2 EndPosition; // ドラッグの終了位置
     public float gravityScale = 1.0f;  //重力のスケール
+    public AudioClip onPressSound;
+    public AudioClip onReleaseSound;
+    private AudioSource audioSource;
 
     private bool first;
 
@@ -26,6 +29,9 @@ public class ShootBall : MonoBehaviour
         line.SetPosition(1,new Vector3 (-21.9f, -11.2f, 0));
 
         first = true;
+
+        audioSource = GetComponent<AudioSource>();
+        audioSource.playOnAwake = false;
     }
 
     void Update()
@@ -99,5 +105,23 @@ public class ShootBall : MonoBehaviour
             line.SetPosition(1, new Vector3(-21.9f, -11.2f, 0));
         }
 
+    }
+
+    void OnMouseDown()
+    {
+        if (onPressSound != null)
+        {
+            audioSource.clip = onPressSound;
+            audioSource.Play();
+        }
+    }
+
+    void OnMouseUp()
+    {
+        if (onReleaseSound != null)
+        {
+            audioSource.clip = onReleaseSound;
+            audioSource.Play();
+        }
     }
 }
