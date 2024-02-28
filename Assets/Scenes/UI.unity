@@ -870,7 +870,6 @@ GameObject:
   - component: {fileID: 405324344}
   - component: {fileID: 405324343}
   - component: {fileID: 405324342}
-  - component: {fileID: 405324341}
   - component: {fileID: 405324340}
   - component: {fileID: 405324339}
   - component: {fileID: 405324338}
@@ -881,7 +880,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!120 &405324337
 LineRenderer:
   serializedVersion: 2
@@ -1206,18 +1205,6 @@ MonoBehaviour:
   gravityScale: 1
   onPressSound: {fileID: 8300000, guid: ab56bf393e32a4b4bbac1325086fac3d, type: 3}
   onReleaseSound: {fileID: 8300000, guid: 8fcb3273653652e4e835b7efe7ddfef2, type: 3}
---- !u!114 &405324341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 405324336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca99065914f838b47a194de421f7e408, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &405324342
 Rigidbody2D:
   serializedVersion: 4
@@ -2419,6 +2406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2bd6a63a4b4884c9f42c52cae5fbfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: UI
 --- !u!114 &1247191511
 MonoBehaviour:
   m_ObjectHideFlags: 0
