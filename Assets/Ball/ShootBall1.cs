@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ShootBall : MonoBehaviour
+public class ShootBall1 : MonoBehaviour
 {
     public Rigidbody2D ballRigidbody; // ボールのRigidbody2Dコンポーネントをアタッチするための変数
     public LineRenderer line;
@@ -26,8 +26,8 @@ public class ShootBall : MonoBehaviour
         line = GetComponent<LineRenderer>();
 
         // 線の開始と終了位置をボールの位置に設定
-        line.SetPosition(0,new Vector3 (-21.9f, -11.2f, 0));
-        line.SetPosition(1,new Vector3 (-21.9f, -11.2f, 0));
+        line.SetPosition(0,new Vector3 (-3.98f, -1.35f, 0));
+        line.SetPosition(1,new Vector3 (-3.98f, -1.35f, 0));
 
         first = true;
 
@@ -82,7 +82,7 @@ public class ShootBall : MonoBehaviour
             // ドラッグの開始位置を取得
             StartPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-            line.SetPosition(0, new Vector3(-21.9f, -11.2f, 0));
+            line.SetPosition(0, new Vector3(-3.98f, -1.35f, 0));
         }
         // マウスの左クリックが離されたら
         else if (Input.GetMouseButtonUp(0))
@@ -101,7 +101,7 @@ public class ShootBall : MonoBehaviour
         }
         else
         {
-            line.SetPosition(1, new Vector3(-21.9f, -11.2f, 0));
+            line.SetPosition(1, new Vector3(-3.98f, -1.35f, 0));
         }
 
     }

@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class resetBotton : MonoBehaviour
 {
+    public string sceneName; // リセットするシーン名
+
     public void OnclickStartButton()
     {
-        // 対応するステージのシーン名入力
-        SceneManager.LoadScene("");
+        // 対応するステージのシーン
+        SceneManager.LoadScene(sceneName);
     }
 
     public void finish()
