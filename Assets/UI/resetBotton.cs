@@ -9,14 +9,14 @@ public class resetBotton : MonoBehaviour
 
     public void OnclickStartButton()
     {
-        // 対応するステージのシーン
+        // 対応するステージのシーン名入力
         SceneManager.LoadScene(sceneName);
     }
 
     public void finish()
     {
         // シーン切り替え3秒
-        Invoke("Call", 3f);
+        Invoke("Call", 0f);
     }
 
     void Call()

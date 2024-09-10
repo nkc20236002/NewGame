@@ -13,7 +13,7 @@ public class homeBotton : MonoBehaviour
 
     public void finish()
     {
-        Invoke("Call", 3f);
+        Invoke("Call", 0f);
     }
 
     void Call()
