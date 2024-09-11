@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Camera/CameraController1.cs.meta
 guid: 2b4131b8cbcc5e74498d8343c03b9320
 ========
 guid: 9022f91142bd8364da89f32550dd0b69
 >>>>>>>> main:Assets/Ball/ShootBall2.cs.meta
+=======
+guid: 9022f91142bd8364da89f32550dd0b69
+>>>>>>> e915c8e (9月10日アセット追加)
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

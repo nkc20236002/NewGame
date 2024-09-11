@@ -8,8 +8,12 @@ PhysicsMaterial2D:
   m_PrefabAsset: {fileID: 0}
   m_Name: Ball Physics Material 2D
 <<<<<<< HEAD
+<<<<<<< HEAD
   friction: 1
 =======
   friction: 0.09999993
 >>>>>>> main
+=======
+  friction: 0.09999993
+>>>>>>> e915c8e (9月10日アセット追加)
   bounciness: 1

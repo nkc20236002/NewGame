@@ -1154,6 +1154,7 @@ Transform:
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &405324336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,6 +1633,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> main
+=======
+>>>>>>> e915c8e (9月10日アセット追加)
 --- !u!1 &520148711
 GameObject:
   m_ObjectHideFlags: 0
@@ -2704,7 +2707,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2bd6a63a4b4884c9f42c52cae5fbfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: UI
 --- !u!114 &1247191511
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ EditorBuildSettings:
   - enabled: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     path: Assets/Scenes/Stage.unity
     guid: a08013c19f1bf2a47a486187cb58f246
   - enabled: 1
@@ -21,6 +22,8 @@ EditorBuildSettings:
     guid: 6cf89db361faadf47baadcd0070123b4
 >>>>>>> 369d85d (2月28日)
 =======
+=======
+>>>>>>> e915c8e (9月10日アセット追加)
     path: Assets/Scenes/TitleScene.unity
     guid: a48667429ca803d4db057af46d2e5723
   - enabled: 1
@@ -35,5 +38,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stage3.unity
     guid: f5b60df0318e9d646b6a9e914afc486d
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> e915c8e (9月10日アセット追加)
   m_configObjects: {}

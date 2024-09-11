@@ -83,10 +83,14 @@ public class ShootBall : MonoBehaviour
             StartPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             line.SetPosition(0, new Vector3(-21.9f, -11.2f, 0));
 =======
             line.SetPosition(0, new Vector3(-21.23f, -10.29f, 0));
 >>>>>>> main
+=======
+            line.SetPosition(0, new Vector3(-21.23f, -10.29f, 0));
+>>>>>>> e915c8e (9æœˆ10æ—¥ã‚¢ã‚»ãƒƒãƒˆè¿½åŠ )
         }
         // ƒ}ƒEƒX‚Ì¶ƒNƒŠƒbƒN‚ª—£‚³‚ê‚½‚ç
         else if (Input.GetMouseButtonUp(0))

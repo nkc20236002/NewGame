@@ -10,10 +10,14 @@ public class resetBotton : MonoBehaviour
     public void OnclickStartButton()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         // ‘Î‰ž‚·‚éƒXƒe[ƒW‚ÌƒV[ƒ“
 =======
         // ‘Î‰ž‚·‚éƒXƒe[ƒW‚ÌƒV[ƒ“–¼“ü—Í
 >>>>>>> main
+=======
+        // ‘Î‰ž‚·‚éƒXƒe[ƒW‚ÌƒV[ƒ“–¼“ü—Í
+>>>>>>> e915c8e (9æœˆ10æ—¥ã‚¢ã‚»ãƒƒãƒˆè¿½åŠ )
         SceneManager.LoadScene(sceneName);
     }
 
